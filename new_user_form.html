@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<style>
+    .text {
+        text-align: center;
+        border: 3px solid red;
+        background-color: rgb(215, 235, 215);
+        opacity: 0.7;
+        margin: 25px 350px 75px 350px;
+    }
+    
+    a:link {
+        color: green;
+    }
+    
+    a:visited {
+        color: hotpink;
+    }
+    
+    a:hover {
+        color: red;
+    }
+    
+    a:active {
+        color: blue;
+    }
+    
+    a:link {
+        text-decoration: none;
+    }
+</style>
+
+<body style=" background-image: url(TrainPhotos/2.jpg);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;">
+
+    <form action="new_user_form.php" method="post">
+        <div align="center" class="text">
+            <h2>Kindly enter your credentials!<br><br></h2>E-mail ID: <input type="text" name="emailid" required><br><br> Password: <input type="password" name="password" required><br><br> Mobile No.: <input type="text" name="mobileno" required><br><br> Date
+            of Birth:
+            <input type="date" name="dob" required><br><br>
+
+            <input type="submit" value="Save"><br><br>
+
+            <a href="index.htm">Home Page</a>
+        </div>
+    </form>
+
+</body>
+
+</html>
